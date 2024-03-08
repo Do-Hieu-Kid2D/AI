@@ -8,7 +8,7 @@
 
 **3.** chạy file _modifyImage.py_ để tạo data
 
-**4.** chạy file bestTrain.py để train modal
+**4.** chạy file trainIt.py để train modal
 
 **5.** Đã có modal -> đọc modal và detect bằng các file detectOne.py hoặc detectMutiple.py
 
