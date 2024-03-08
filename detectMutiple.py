@@ -5,7 +5,7 @@ import numpy as np
 from keras.models import load_model
 
 # Load mô hình đã huấn luyện
-model = load_model('number_recognition_model.keras')
+model = load_model('litterTrain.keras')
 
 # Đường dẫn đến thư mục chứa các ảnh cần dự đoán
 folder_path = 'images/test/8'

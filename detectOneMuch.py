@@ -8,7 +8,7 @@ from keras.models import load_model
 model = load_model('muchTrain.keras')
 
 # Đọc hình ảnh mới cần dự đoán
-image = cv2.imread('much_images/test/2/img_16.jpg')
+image = cv2.imread('much_images/test/9/img_535.jpg')
 # cv2.imshow("One image",image)
 # cv2.waitKey(0)
 

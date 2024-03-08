@@ -5,20 +5,12 @@ import numpy as np
 from keras.models import load_model
 
 # Load mô hình đã huấn luyện
-model = load_model('number_recognition_model.keras')
+model = load_model("litterTrain.keras")
 
 # Đọc hình ảnh mới cần dự đoán
-# image = cv2.imread('images/test/5/1290.jpg')
-# image = cv2.imread('myMake/so0.jpg')
-# image = cv2.imread('myMake/so1.jpg')
-# image = cv2.imread('myMake/so2.jpg')
+
 image = cv2.imread('myMake/so3.jpg')
-# image = cv2.imread('myMake/so4.jpg')
-# image = cv2.imread('myMake/so5.jpg')
-# image = cv2.imread('myMake/so6.jpg')
-# image = cv2.imread('myMake/so7.jpg')
-# image = cv2.imread('myMake/so8.jpg')
-# image = cv2.imread('myMake/so9.jpg')
+
 
 # print(image)
 # cv2.imshow("One image",image)
